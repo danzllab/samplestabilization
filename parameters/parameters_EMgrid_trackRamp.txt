@@ -1,0 +1,15 @@
+[sample_lock]
+reference_range_[um] = 1
+reference_step_size_[um] = 0.05
+mode = triangle_error
+axis = 1
+move_amplitude_[um] = 0.2
+move_time = 30
+peak_fit = gauss
+sample_lock_active_axes = ["1"," 2", "3"]
+scale_factors = [1, 1.05, 0.95]
+settling_time_[s] = 0.02
+k_p = 0.4
+k_i = 4.5
+k_i2 = 0.1
+

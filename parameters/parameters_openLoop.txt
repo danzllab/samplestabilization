@@ -1,0 +1,15 @@
+[sample_lock]
+reference_range_[um] = 0.5
+reference_step_size_[um] = 0.02
+mode = step
+axis = 3
+move_amplitude_[um] = 0.05
+move_time = 5
+peak_fit = gauss
+sample_lock_active_axes = ["0"," 0", "0"]
+scale_factors = [1, 1.05, 0.95]
+settling_time_[s] = 0.05
+k_p = 0.7
+k_i = 2
+k_i2 = 0.1
+
