@@ -1,11 +1,11 @@
 # Sample Lock
 
 ## Description
-The Sample-Lock is an advanced software application designed to provide a graphical user interface (GUI) for the Sample-lock protocol, a microscopy image stabilization technique. This system integrates hardware control and data processing functionalities, offering a robust solution for researchers requiring precise image stabilization in microscopic studies.
+This is an advanced software application designed to provide a graphical user interface (GUI) for an image-based sample stabilization scheme for microscopy developed in the Danzl lab and published at ***insert link***. This software module integrates hardware control and data processing functionalities, offering a robust solution for researchers requiring precise sample stabilization in microscopy applications.
 
 ## Visuals
 ![System Screenshot](pics/GUI_new.png)
-This screenshot displays the Sample-Lock software interface, specifically designed for microscopy image stabilization. The main panel presents a high-resolution image of a sample being examined. Below this, two graphs offer real-time monitoring of 3-axis stabilization data: the upper graph displays the position of the piezo stage along a single axis (blue line), and the lower graph illustrates the computed discrepancies between actual and desired movements along that axis (red line). To the right, the control panel contains settings for the sample-lock protocol, alongside options to save data and adjust operational settings. The interface also features tabs for managing both coarse (motor stage) and precise (piezo stage) movements, with an additional tab dedicated to camera settings.
+This screenshot displays an example stabilization measurement using the samplestabilization software. The main panel presents an image of the structure used for stabilization. Below this, two graphs offer real-time monitoring of 3-axis stabilization data: the upper graph displays the position of the piezo stage along a single axis (blue line), and the lower graph illustrates the computed discrepancies between actual sample position and setpoint along that axis (red line). To the right, the "Stage" tab allows for positioning of the sample using both coarse (motor stage) and precise (piezo stage) movements before the feedback is engaged. The "Feedback parameters" tab contains fields for setting all relevant parameters, alongside options to save data and adjust plotting settings. Camera regions of interest and exposure time can be set in the "Camera" tab.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Features
-- Multiple Camera Support: Compatible with various camera models and can be easily extended.
+- Multiple Camera Support: Readily compatible with IDs and Andor camera models, can be easily extended.
 - Stage Control: Fine and coarse control of motorized stages with precision settings.
 - Real-time Data Processing: Live data visualization and error handling for real-time performance monitoring.
 - Extensive Configuration: Easy to configure system parameters through a GUI interface or configuration files.
@@ -38,4 +38,4 @@ pip install -r requirements.txt
 Interested in contributing? Great! Please check out our contributing guidelines for ways to offer feedback and contribute.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the GNU Affero General Public License (GNU AGPLv3) - see the LICENSE.md file for details.
