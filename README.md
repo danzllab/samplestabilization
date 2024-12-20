@@ -1,4 +1,4 @@
-# Sample Lock
+# Sample Stabilization
 
 ## Description
 This is a software application designed to provide a graphical user interface (GUI) for an image-based sample stabilization scheme for microscopy developed in the Danzl lab and published at ***insert link***. This software module integrates hardware control and data processing functionalities, offering a robust solution for researchers requiring precise sample stabilization in microscopy applications.
