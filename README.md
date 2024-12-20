@@ -36,4 +36,4 @@ pip install -r requirements.txt
 - Extensive Configuration: Easy to configure system parameters through a GUI interface or configuration files.
 
 ## License
-This project is licensed under the GNU Affero General Public License (GNU AGPLv3) - see the LICENSE.md file for details.
+This project is licensed under the GNU Affero General Public License (GNU AGPLv3) - see the LICENSE.md file for details. Copyright holder: Institute of Science and Technology Austria.
